@@ -1,0 +1,26 @@
+
+
+GET http://localhost:3000/
+
+###
+GET http://localhost:3000/api/users
+
+###
+POST  http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "isim":"Remzi2",
+    "email":"remzi2@email.mh",
+    "userName":"remziMehdizade2",
+    "sifre":"12345678"
+}
+
+###
+PATCH   http://localhost:3000/api/users/666cd8c81bf0246e28db2f9q
+Content-Type: application/json
+
+{
+    "isim":"RemziMehdizade12"
+
+}
